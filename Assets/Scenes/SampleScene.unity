@@ -236,13 +236,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logic:
-    Users: []
     session:
-      ruler:
-        name: 
-        place: 0
-        cards: []
-      Symbol: 0
+      members: []
+      segment:
+        state: 0
+        ruler:
+          name: 
+          place: 0
+          userID: 0
+          teamID: 
+          cards: []
+        superiorSymbol: 0
+        ground:
+          starter:
+            name: 
+            place: 0
+            userID: 0
+            teamID: 
+            cards: []
+          groundSymbol: 0
+          groundCards: []
 --- !u!4 &1420755081
 Transform:
   m_ObjectHideFlags: 0

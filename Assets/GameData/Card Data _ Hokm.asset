@@ -15,157 +15,209 @@ MonoBehaviour:
   cards:
   - name: Heart 1
     number: 1
+    score: 13
     symbol: 1
   - name: Heart 2
     number: 2
+    score: 1
     symbol: 1
   - name: Heart 3
     number: 3
+    score: 2
     symbol: 1
   - name: Heart 4
     number: 4
+    score: 3
     symbol: 1
   - name: Heart 5
     number: 5
+    score: 4
     symbol: 1
   - name: Heart 6
     number: 6
+    score: 5
     symbol: 1
   - name: Heart 7
     number: 7
+    score: 6
     symbol: 1
   - name: Heart 8
     number: 8
+    score: 7
     symbol: 1
   - name: Heart 9
     number: 9
+    score: 8
     symbol: 1
   - name: Heart 10
     number: 10
+    score: 9
     symbol: 1
   - name: Heart 11
     number: 11
+    score: 10
     symbol: 1
   - name: Heart 12
     number: 12
+    score: 11
     symbol: 1
   - name: Heart 13
     number: 13
+    score: 12
     symbol: 1
   - name: Spade 1
     number: 1
+    score: 13
     symbol: 2
   - name: Spade 2
     number: 2
+    score: 1
     symbol: 2
   - name: Spade 3
     number: 3
+    score: 2
     symbol: 2
   - name: Spade 4
     number: 4
+    score: 3
     symbol: 2
   - name: Spade 5
     number: 5
+    score: 4
     symbol: 2
   - name: Spade 6
     number: 6
+    score: 5
     symbol: 2
   - name: Spade 7
     number: 7
+    score: 6
     symbol: 2
   - name: Spade 8
     number: 8
+    score: 7
     symbol: 2
   - name: Spade 9
     number: 9
+    score: 8
     symbol: 2
   - name: Spade 10
     number: 10
+    score: 9
     symbol: 2
   - name: Spade 11
     number: 11
+    score: 10
     symbol: 2
   - name: Spade 12
     number: 12
+    score: 11
     symbol: 2
   - name: Spade 13
     number: 13
+    score: 12
     symbol: 2
   - name: Clubs 1
     number: 1
+    score: 13
     symbol: 3
   - name: Clubs 2
     number: 2
+    score: 1
     symbol: 3
   - name: Clubs 3
     number: 3
+    score: 2
     symbol: 3
   - name: Clubs 4
     number: 4
+    score: 3
     symbol: 3
   - name: Clubs 5
     number: 5
+    score: 4
     symbol: 3
   - name: Clubs 6
     number: 6
+    score: 5
     symbol: 3
   - name: Clubs 7
     number: 7
+    score: 6
     symbol: 3
   - name: Clubs 8
     number: 8
+    score: 7
     symbol: 3
   - name: Clubs 9
     number: 9
+    score: 8
     symbol: 3
   - name: Clubs 10
     number: 10
+    score: 9
     symbol: 3
   - name: Clubs 11
     number: 11
+    score: 10
     symbol: 3
   - name: Clubs 12
     number: 12
+    score: 11
     symbol: 3
   - name: Clubs 13
     number: 13
+    score: 12
     symbol: 3
   - name: Diamond 1
     number: 1
+    score: 13
     symbol: 4
   - name: Diamond 2
     number: 2
+    score: 1
     symbol: 4
   - name: Diamond 3
     number: 3
+    score: 2
     symbol: 4
   - name: Diamond 4
     number: 4
+    score: 3
     symbol: 4
   - name: Diamond 5
     number: 5
+    score: 4
     symbol: 4
   - name: Diamond 6
     number: 6
+    score: 5
     symbol: 4
   - name: Diamond 7
     number: 7
+    score: 6
     symbol: 4
   - name: Diamond 8
     number: 8
+    score: 7
     symbol: 4
   - name: Diamond 9
     number: 9
+    score: 8
     symbol: 4
   - name: Diamond 10
     number: 10
+    score: 9
     symbol: 4
   - name: Diamond 11
     number: 11
+    score: 10
     symbol: 4
   - name: Diamond 12
     number: 12
+    score: 11
     symbol: 4
   - name: Diamond 13
     number: 13
+    score: 12
     symbol: 4
