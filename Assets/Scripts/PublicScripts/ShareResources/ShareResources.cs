@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace PublicScripts.Entity
@@ -20,11 +21,15 @@ namespace PublicScripts.Entity
             }
         }
         private static ShareResources _instance;
+
+        public Card CardPrefab;
         
-        [SerializeField] private List<Sprite> avatars;
-        [SerializeField] private List<Sprite> cardsSkin;
-        public Sprite GetAvatarAtID(string id) => avatars.Find(x => x.name == id);
-        public Sprite GetCardSkinAtID(int id) => cardsSkin.Find(x => x.name == id.ToString());
+        public Sprite GetCardSprite(string skinNumber, int cardId)
+        {
+            return Resources.LoadAll<Sprite>($"GameResources/Design/Cards/{skinNumber}/1").ToList()
+                .Find(x => x.name == cardId.ToString());
+        }
+
 
     }
 }
