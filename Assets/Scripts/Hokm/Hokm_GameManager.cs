@@ -1,16 +1,24 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Hokm_GameManager : MonoBehaviour
 {
+
+
+    public static Action<Symbol> OnSetKingSymbol;
+    
     public List<ECard> cards;
     public List<ECard> buffCardsChooseRuler;
     public List<User> users;
+    
     public User kingUser;
-    public int turn;
+    public Symbol KingSymbol;
+    
+    public TurnObject turn;
 
 
 
@@ -18,32 +26,38 @@ public class Hokm_GameManager : MonoBehaviour
     [SerializeField] private List<Transform> placeCards_ChooseRuler;
     [SerializeField] private List<Transform> userPlaceCards;
     [SerializeField] private List<Transform> userRotateCards;
-    [SerializeField] private List<Transform> dealTheCardsView_Rotation;
+
+    [SerializeField] private GameObject uiKingSymbolsPanel;
     IEnumerator Start()
     {
+        OnSetKingSymbol = SetKingSymbol;
+        
+        turn = new TurnObject(users.Count, 1);
+
         InitMainCard();
         ChooseRuler();
         
         InitMainCard();
         DealTheCards();
 
-        bool isEndAct = false;
-        ChooseRulerView(()=>isEndAct=true);
-        yield return new WaitUntil(() => isEndAct);
-        isEndAct = false;
+       
+        RunTasks(IE_ChooseRulerView(null),IE_DealTheCardsView(0,5, ()=>uiKingSymbolsPanel.gameObject.SetActive(true)));
+        
         yield return new WaitForSeconds(1);
-        DealTheCardsView(0,5,()=>isEndAct=true);
-        yield return new WaitUntil(() => isEndAct);
-        isEndAct = false;
-        yield return new WaitForSeconds(1);
-        DealTheCardsView(5,4,()=>isEndAct=true);
-        yield return new WaitUntil(() => isEndAct);
-        isEndAct = false;
-        yield return new WaitForSeconds(1);
-        DealTheCardsView(9,4,()=>isEndAct=true);
     }
-    
 
+    void RunTasks(params IEnumerator[] IEs)
+    {
+        StartCoroutine(IE_RunTasks(IEs));
+    }
+
+    IEnumerator IE_RunTasks(params IEnumerator[] IEs)
+    {
+        foreach (var task in IEs)
+        {
+            yield return StartCoroutine(task);
+        }
+    }
     #region Init Main Cards
 
     void InitMainCard()
@@ -89,6 +103,8 @@ public class Hokm_GameManager : MonoBehaviour
 
     #endregion
 
+    User GetUserAtTurn(int index) => users.Find(x => x.turn == index);
+    
     void ChooseRuler()
     {
         var max = cards.Count;
@@ -99,30 +115,31 @@ public class Hokm_GameManager : MonoBehaviour
             cards.Remove(rndCard);
             if (rndCard.order == 13)
             {
-                kingUser = users[turn];
+                kingUser = GetUserAtTurn(turn.Current);
                 break;
             }
 
-            turn = turn + 1 >= 4 ? 0 : ++turn;
+            turn.Next();
         }
     }
 
-    void ChooseRulerView(Action OnEnd)
+    Coroutine ChooseRulerView(Action OnEnd)
     {
-        StartCoroutine(IE_ChooseRulerView(OnEnd));
+        return StartCoroutine(IE_ChooseRulerView(OnEnd));
     }
 
-    IEnumerator IE_ChooseRulerView(Action OnEnd)
+    IEnumerator IE_ChooseRulerView(Action OnEndMethos)
     {
+        turn = new TurnObject(users.Count, 1);
         List<Card> cardsCreated = new List<Card>();
-        turn = 0;
         foreach (var eCard in buffCardsChooseRuler)
         {
             var card = CardCreator.instance.Create(eCard, placeCreatedCard.position, Quaternion.identity,
-                placeCards_ChooseRuler[turn].transform);
-            card.StartMove(placeCreatedCard, userPlaceCards[turn].transform, 3, (-25, 100), null, null);
-            card.StartRotate(placeCreatedCard, userRotateCards[turn].transform, 3, (-15, 15), null, null);
-            turn = turn + 1 >= 4 ? 0 : ++turn;
+                placeCards_ChooseRuler[turn.Current-1].transform);
+            card.StartMove(placeCreatedCard, userPlaceCards[turn.Current-1].transform, 4, (-25, 100), null, null);
+            card.StartRotate(placeCreatedCard, userRotateCards[turn.Current-1].transform, 4, (-15, 15), null, null);
+            card.ShowFront();
+            turn.Next();
             cardsCreated.Add(card);
             yield return new WaitForSeconds(0.2f);
         }
@@ -133,9 +150,18 @@ public class Hokm_GameManager : MonoBehaviour
             Destroy(c.gameObject);
 
         }
-    
+        
+        OnEndMethos?.Invoke();
+    }
 
-        OnEnd?.Invoke();
+    void SetKingSymbol(Symbol symbol)
+    { 
+        KingSymbol = symbol;
+        uiKingSymbolsPanel.SetActive(false);
+        RunTasks(
+            IE_DealTheCardsView(5,4,null),
+            IE_DealTheCardsView(5,4,null)
+            );
     }
     
     void DealTheCards()
@@ -171,12 +197,11 @@ public class Hokm_GameManager : MonoBehaviour
         }
     }
 
-    void DealTheCardsView(int startIndex,int count,Action OnEnd) => StartCoroutine(IE_DealTheCardsView(startIndex,count,OnEnd));
+    Coroutine DealTheCardsView(int startIndex,int count,Action OnEnd) => StartCoroutine(IE_DealTheCardsView(startIndex,count,OnEnd));
     IEnumerator IE_DealTheCardsView(int startIndex,int count,Action OnEnd)
     {
-        
-
-        foreach (var user in users)
+        turn = new TurnObject(users.Count, kingUser.turn);
+        for (int u = 0; u < users.Count; u++)
         {
             var cardsTrs = new List<Transform>();
             for (int i = 0; i < count; i++)
@@ -188,13 +213,13 @@ public class Hokm_GameManager : MonoBehaviour
                         position = Vector3.zero
                     }
                 };
-                cardTrs.transform.SetParent(userPlaceCards[turn]);
+                cardTrs.transform.SetParent(userPlaceCards[turn.Current-1]);
                 cardsTrs.Add(cardTrs.transform);
             }
             
             for (int j = 0; j < count; j++)
             {
-                var eCard = user.card[j+startIndex];
+                var eCard = GetUserAtTurn(turn.Current).card[j+startIndex];
                 
                 
                 yield return new WaitForEndOfFrame();
@@ -203,14 +228,36 @@ public class Hokm_GameManager : MonoBehaviour
                 var card = CardCreator.instance.Create(eCard,placeCreatedCard.position,Quaternion.identity, cardsTrs[j].transform);
                 
                 
-                card.StartMove(placeCreatedCard,cardsTrs[j].transform,3,(-0,0),null,null);
-                card.StartRotate(placeCreatedCard.rotation, userRotateCards[turn].transform.rotation,3,(-0,0),null,null);
-                
+                card.StartMove(placeCreatedCard,cardsTrs[j].transform,4,(-0,0),null,null);
+                card.StartRotate(placeCreatedCard.rotation, userRotateCards[turn.Current-1].transform.rotation,4,(-0,0),null,null);
+                //if(users[turn].isOwner)
+                    card.ShowFront();
                 yield return new WaitForSeconds(0.2f);
             }
-            turn = turn + 1 >= 4 ? 0 : ++turn;
+            turn.Next();
         }
         OnEnd?.Invoke();
     }
 
+}
+
+[System.Serializable]
+public class TurnObject
+{
+    private int max;
+    public int Current;
+
+    public TurnObject(int max, int current)
+    {
+        this.max = max;
+        this.Current = current;
+    }
+
+    public void Next()
+    {
+        if (Current + 1 > max)
+            Current = 1;
+        else
+            Current++;
+    }
 }

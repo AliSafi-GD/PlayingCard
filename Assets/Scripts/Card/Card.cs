@@ -11,6 +11,7 @@ public class Card : MonoBehaviour
     [SerializeField] private Image img;
     [SerializeField] private MoveObject _moveObject;
     [SerializeField] private RotateObject _rotateObject;
+    [SerializeField] private CardAnimationController anim;
     public void Bind(ECard entity)
     {
         img.sprite = ShareResources.Instance.GetCardSprite("1", entity.id);
@@ -29,6 +30,9 @@ public class Card : MonoBehaviour
     {
         _rotateObject.StartRotate(firstPos,targetTrs,speed,amountOfBreadth,OnStart,OnEnd);
     }
+
+    public void ShowFront() => anim.ShowFront();
+    public void ShowBack() => anim.ShowBack();
 }
 
 [System.Serializable]

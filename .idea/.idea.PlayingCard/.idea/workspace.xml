@@ -2,146 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534714d2-59b4-45a7-ae35-8f29c881a8f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/User.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/User/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/User/User.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VIew/MoveObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VIew/MoveObject.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingCard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingCard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/371-3713883_ultimate-deck-playing-cards-showcases-great-works-of.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/371-3713883_ultimate-deck-playing-cards-showcases-great-works-of.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 11.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 11.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 12.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 12.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 13.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 13.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 14.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 14.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 15.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 15.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 16.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 16.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 17.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 17.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 18.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 18.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 19.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 19.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 20.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 20.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 21.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 21.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 22.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 22.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 23.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 23.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 24.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 24.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 25.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 25.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 26.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 26.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 27.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 27.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 28.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 28.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 29.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 29.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 30.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 30.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 31.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 31.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 32.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 32.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 33.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 33.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 34.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 34.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 35.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 35.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 36.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 36.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 37.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 37.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 38.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 38.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 39.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 39.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 40.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 40.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 41.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 41.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 42.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 42.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 43.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 43.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 44.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 44.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 45.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 45.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 46.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 46.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 47.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 47.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 48.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 48.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 49.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 49.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 50.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 50.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 6.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 6.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 7.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 7.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 8.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 8.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 9.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameData/Avatars/Avatar 9.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Club.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Club.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Diamond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Diamond.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Spade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/Spade.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/1/heart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/MiniGames.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/MiniGames/Hokm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/ShareResources.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameResources/ShareResources.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/Model/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/Model/Card.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame/Hokm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PublicScripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/Card.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/Card/CardModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/Card/CardModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/Card/ECard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/Card/ECard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/GameData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/GameDataModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/GameDataModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/ShareResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/ShareResources.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/EUser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/EUser.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/UserModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/UserModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/UserView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PublicScripts/User/UserView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Card/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Card/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hokm/Hokm_GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hokm/Hokm_GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/User/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/User/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,11 +34,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/f5/f9554f81/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edb09cd490414b2684a18fe60d255a5913ca00/1a/42492c4e/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edb09cd490414b2684a18fe60d255a5913ca00/44/c4980fea/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edb09cd490414b2684a18fe60d255a5913ca00/6a/9dadf975/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edb09cd490414b2684a18fe60d255a5913ca00/92/51dd7a4f/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/CardCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hokm/Hokm_GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PublicScripts/ShareResources/ShareResources.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VIew/RotateObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VIew/SetHokmSymbols_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VIew/ViewUtility.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -256,7 +124,9 @@
       <workItem from="1667066468717" duration="5682000" />
       <workItem from="1667336541353" duration="1900000" />
       <workItem from="1667473780685" duration="11077000" />
-      <workItem from="1667670185352" duration="10183000" />
+      <workItem from="1667670185352" duration="10826000" />
+      <workItem from="1667708500380" duration="1253000" />
+      <workItem from="1667752763468" duration="8573000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit&#10;Create Project">
       <created>1665261398716</created>
@@ -293,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667075568850</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fx">
+      <created>1667681305534</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667681305534</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

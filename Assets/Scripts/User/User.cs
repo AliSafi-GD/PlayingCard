@@ -3,9 +3,10 @@ using UnityEngine;
 
     public class User : MonoBehaviour
     {
-        private int turn;
+        public int turn;
         public List<ECard> card;
         public Transform cardsParent;
-        
-        
+        public bool isOwner;
+
+
     }
