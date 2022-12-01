@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="534714d2-59b4-45a7-ae35-8f29c881a8f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingCard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingCard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/Model/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameResources/Design/Cards/Model/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Card/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Card/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hokm/Hokm_GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hokm/Hokm_GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/User/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/User/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +121,8 @@
       <workItem from="1667473780685" duration="11077000" />
       <workItem from="1667670185352" duration="10826000" />
       <workItem from="1667708500380" duration="1253000" />
-      <workItem from="1667752763468" duration="8573000" />
+      <workItem from="1667752763468" duration="8894000" />
+      <workItem from="1667844880460" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit&#10;Create Project">
       <created>1665261398716</created>
@@ -170,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667681305534</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fx">
+      <created>1667765923508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765923508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
